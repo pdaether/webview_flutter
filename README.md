@@ -1,16 +1,13 @@
-# webview
+# webview - unreadable text in dark mode
 
-A new Flutter project.
+This is just a demo for one bug with *webview_flutter* and Android when the device is set to dark mode.
+In this case on my phone the entries of an html select box were not visible, because they were shown as white text on white background.
+Switching to the normal light mode in the Android settings and everything is shown correctly.
 
-## Getting Started
+This is how it looks like in Android dark mode, text is not visible:
 
-This project is a starting point for a Flutter application.
+![dark mode](./assets/dark_mode_text_unreadable.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+This is how it looks like in Android light mode, text is visible:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![dark mode](./assets/normal_mode_text_visible.jpg)
